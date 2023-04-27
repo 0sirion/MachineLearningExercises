@@ -6,7 +6,10 @@ import matplotlib as plt
 
 
 def main():
-    print('hello')
+    st.title("Ml Exercise")
+    path1= "https://frenzy86.s3.eu-west-2.amazonaws.com/python/data/Startup.csv"
+
+    
 
 
 
