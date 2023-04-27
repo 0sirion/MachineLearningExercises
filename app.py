@@ -5,6 +5,7 @@ import streamlit as st
 import matplotlib.pyplot as plt
 
 
+
 def main():
     st.title("Ml Exercise")
     path1= "https://frenzy86.s3.eu-west-2.amazonaws.com/python/data/Startup.csv"
@@ -14,7 +15,7 @@ def main():
 
     fig = plt.figure(figsize=(10,8))
     sns.heatmap(df1.corr(), annot=True)
-    
+
 
     
 
